@@ -1,0 +1,365 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining g:\ikeyencrypt directory for files to compile.
+oacr invalidate root:amd64chk /autocleanqueue
+1>Compiling and Linking g:\ikeyencrypt *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>g:\ikeyencrypt: TARGETPATH is SYS
+1> C:\WinDDK\7600.16385.1\Bin\amd64\oacr\oacrcl @g:\ikeyencrypt\objchk_win7_amd64\amd64\cl.rsp
+1>Microsoft (R) C/C++ Optimizing Compiler Version 15.00.30729.207 for x64
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Fo"g:\ikeyencrypt\objchk_win7_amd64\amd64/"
+1> /FC
+1> /Iamd64\
+1> /I.
+1> /Ic:\winddk\7600.16385.1\inc\mfc42
+1> /I..\inc
+1> /Ig:\ikeyencrypt\objchk_win7_amd64\amd64
+1> /IC:\WinDDK\7600.16385.1\inc\api
+1> /IC:\WinDDK\7600.16385.1\inc\api
+1> /IC:\WinDDK\7600.16385.1\inc\ddk
+1> /IC:\WinDDK\7600.16385.1\inc\ddk
+1> /IC:\WinDDK\7600.16385.1\inc\crt
+1> /D_WIN64
+1> /D_AMD64_
+1> /DAMD64
+1> /DCONDITION_HANDLING=1
+1> /DNT_UP=1
+1> /DNT_INST=0
+1> /DWIN32=100
+1> /D_NT1X_=100
+1> /DWINNT=1
+1> /D_WIN32_WINNT=0x0601
+1> /DWINVER=0x0601
+1> /D_WIN32_IE=0x0800
+1> /DWIN32_LEAN_AND_MEAN=1
+1> /DDEVL=1
+1> /DDBG=1
+1> /D__BUILDMACHINE__=WinDDK
+1> /D_DLL=1
+1> /DNDEBUG
+1> /DMSC_NOOPT
+1> /DNTDDI_VERSION=0x06010000
+1> /c
+1> /Zc:wchar_t-
+1> /Zl
+1> /Zp8
+1> /Gy
+1> -cbstring
+1> /W3
+1> /EHs-c-
+1> /GR-
+1> /GF
+1> /GS
+1> /Z7
+1> /Od
+1> /Oi
+1> /GL
+1> /Z7
+1> /DKMDF_MAJOR_VERSION_STRING=01
+1> /DKMDF_MINOR_VERSION_STRING=009
+1> /typedil-
+1> /wd4603
+1> /wd4627
+1> /homeparams
+1> /FIC:\WinDDK\7600.16385.1\inc\api\warning.h
+1> .\ikdinit.c .\ikdlistnode.c .\ikdsupport.c .\ikdoperation.c .\sdmd5c.c 
+1>ikdinit.c
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1>warnings in directory g:\ikeyencrypt
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1> c:\winddk\7600.16385.1\inc\ddk\ntifs.h(11881) : see previous definition of 'ObQueryNameString'
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1> c:\winddk\7600.16385.1\inc\ddk\wdm.h(13207) : see previous definition of 'PAGE_SIZE'
+1>g:\ikeyencrypt\ikdinit.c(320) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(320) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(335) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdinit.c(335) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdinit.c(353) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(353) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(540) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(540) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(556) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdinit.c(556) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdinit.c(579) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(579) : warning C4133: 'function' : incompatible types - from 'USHORT *' to 'PULONG'
+1>g:\ikeyencrypt\ikdinit.c(1534) : warning C4133: '=' : incompatible types - from 'PMULTI_VOLUME_LIST_NODE' to 'PSYSTEM_LETTER_LIST_NODE'
+1>g:\ikeyencrypt\ikdinit.c(1534) : warning C4133: '=' : incompatible types - from 'PMULTI_VOLUME_LIST_NODE' to 'PSYSTEM_LETTER_LIST_NODE'
+1>g:\ikeyencrypt\ikdinit.c(1541) : warning C4133: 'function' : incompatible types - from 'PSYSTEM_LETTER_LIST_NODE' to 'PMULTI_VOLUME_LIST_NODE'
+1>g:\ikeyencrypt\ikdinit.c(1541) : warning C4133: 'function' : incompatible types - from 'PSYSTEM_LETTER_LIST_NODE' to 'PMULTI_VOLUME_LIST_NODE'
+1>ikdlistnode.c
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1> c:\winddk\7600.16385.1\inc\ddk\ntifs.h(11881) : see previous definition of 'ObQueryNameString'
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1> c:\winddk\7600.16385.1\inc\ddk\wdm.h(13207) : see previous definition of 'PAGE_SIZE'
+1>ikdsupport.c
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1> c:\winddk\7600.16385.1\inc\ddk\ntifs.h(11881) : see previous definition of 'ObQueryNameString'
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1> c:\winddk\7600.16385.1\inc\ddk\wdm.h(13207) : see previous definition of 'PAGE_SIZE'
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(268) : warning C4995: 'scanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(268) : warning C4995: 'scanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(284) : warning C4995: 'sscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(284) : warning C4995: 'sscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(290) : warning C4995: '_snscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(290) : warning C4995: '_snscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_snprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_snprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_vsnprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_vsnprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'vsprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'vsprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(416) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(416) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(417) : warning C4995: 'vswprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(417) : warning C4995: 'vswprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_snwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_snwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_vsnwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_vsnwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(508) : warning C4995: 'swscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(508) : warning C4995: 'swscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(514) : warning C4995: '_snwscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(514) : warning C4995: '_snwscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(518) : warning C4995: 'wscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(518) : warning C4995: 'wscanf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdsupport.c(40) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdsupport.c(40) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdsupport.c(45) : warning C4242: '=' : conversion from 'ULONG' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(45) : warning C4242: '=' : conversion from 'ULONG' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(95) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(95) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(104) : warning C4133: '=' : incompatible types - from 'PFILE_ID_BOTH_DIR_INFORMATION' to 'PFILE_BOTH_DIR_INFORMATION'
+1>g:\ikeyencrypt\ikdsupport.c(104) : warning C4133: '=' : incompatible types - from 'PFILE_ID_BOTH_DIR_INFORMATION' to 'PFILE_BOTH_DIR_INFORMATION'
+1>g:\ikeyencrypt\ikdsupport.c(110) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(110) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(145) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(145) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(160) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(160) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(186) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(186) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(202) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(202) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(228) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(228) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(244) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(244) : warning C4242: '=' : conversion from '__int64' to 'LONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(257) : warning C4242: 'return' : conversion from 'LONG' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(257) : warning C4242: 'return' : conversion from 'LONG' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(317) : warning C4242: '=' : conversion from '__int64' to 'int', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(317) : warning C4242: '=' : conversion from '__int64' to 'int', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(524) : warning C4242: '=' : conversion from '__int64' to 'SHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(524) : warning C4242: '=' : conversion from '__int64' to 'SHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(534) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdsupport.c(534) : warning C4133: '=' : incompatible types - from 'PCHAR' to 'PWCH'
+1>g:\ikeyencrypt\ikdsupport.c(658) : warning C4142: benign redefinition of type
+1>g:\ikeyencrypt\ikdsupport.c(658) : warning C4142: benign redefinition of type
+1>g:\ikeyencrypt\ikdsupport.c(675) : warning C4242: '=' : conversion from '__int64' to 'DWORD', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(675) : warning C4242: '=' : conversion from '__int64' to 'DWORD', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(680) : warning C4242: '=' : conversion from 'DWORD' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(680) : warning C4242: '=' : conversion from 'DWORD' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(1498) : warning C4242: 'function' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(1498) : warning C4242: 'function' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(1842) : warning C4242: '=' : conversion from '__int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(1842) : warning C4242: '=' : conversion from '__int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(2014) : warning C4242: '=' : conversion from '__int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(2014) : warning C4242: '=' : conversion from '__int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(2387) : warning C4242: '=' : conversion from 'int' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(2387) : warning C4242: '=' : conversion from 'int' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(2388) : warning C4242: '=' : conversion from 'int' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(2388) : warning C4242: '=' : conversion from 'int' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(4269) : warning C4244: '=' : conversion from 'unsigned long' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(4269) : warning C4244: '=' : conversion from 'unsigned long' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(4552) : warning C4242: 'return' : conversion from 'BOOL' to 'BOOLEAN', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(4552) : warning C4242: 'return' : conversion from 'BOOL' to 'BOOLEAN', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5253) : warning C4242: 'function' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5253) : warning C4242: 'function' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5637) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5637) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5677) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5677) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5733) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5733) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5772) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5772) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5961) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(5961) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6001) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6001) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6057) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6057) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6096) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6096) : warning C4242: '=' : conversion from 'unsigned __int64' to 'USHORT', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6399) : warning C4242: '+=' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6399) : warning C4242: '+=' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6438) : warning C4242: '+=' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(6438) : warning C4242: '+=' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(7229) : warning C4133: '=' : incompatible types - from 'PIKD_STREAM_CONTEXT' to 'PIKD_STREAMHANDLE_CONTEXT'
+1>g:\ikeyencrypt\ikdsupport.c(7229) : warning C4133: '=' : incompatible types - from 'PIKD_STREAM_CONTEXT' to 'PIKD_STREAMHANDLE_CONTEXT'
+1>g:\ikeyencrypt\ikdsupport.c(7416) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdsupport.c(7416) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdsupport.c(7744) : warning C4242: 'function' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(7744) : warning C4242: 'function' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(8017) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdsupport.c(8017) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdsupport.c(8158) : warning C4242: '=' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdsupport.c(8158) : warning C4242: '=' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>ikdoperation.c
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1>g:\ikeyencrypt\ikdsupport.h(74) : warning C4273: 'ObQueryNameString' : inconsistent dll linkage
+1> c:\winddk\7600.16385.1\inc\ddk\ntifs.h(11881) : see previous definition of 'ObQueryNameString'
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1>g:\ikeyencrypt\ikdbase.h(82) : warning C4005: 'PAGE_SIZE' : macro redefinition
+1> c:\winddk\7600.16385.1\inc\ddk\wdm.h(13207) : see previous definition of 'PAGE_SIZE'
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(268) : warning C4995: 'scanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(268) : warning C4995: 'scanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(284) : warning C4995: 'sscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(284) : warning C4995: 'sscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(290) : warning C4995: '_snscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(290) : warning C4995: '_snscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_snprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_snprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_vsnprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(316) : warning C4995: '_vsnprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'vsprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(322) : warning C4995: 'vsprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(416) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(416) : warning C4995: 'swprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(417) : warning C4995: 'vswprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(417) : warning C4995: 'vswprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_snwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_snwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_vsnwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(428) : warning C4995: '_vsnwprintf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(508) : warning C4995: 'swscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(508) : warning C4995: 'swscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(514) : warning C4995: '_snwscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(514) : warning C4995: '_snwscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(518) : warning C4995: 'wscanf': name was marked as #pragma deprecated
+1>c:\winddk\7600.16385.1\inc\crt\stdio.h(518) : warning C4995: 'wscanf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(122) : warning C4090: 'function' : different 'const' qualifiers
+1>g:\ikeyencrypt\ikdoperation.c(122) : warning C4090: 'function' : different 'const' qualifiers
+1>g:\ikeyencrypt\ikdoperation.c(153) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(153) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(177) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(177) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(202) : warning C4090: 'function' : different 'const' qualifiers
+1>g:\ikeyencrypt\ikdoperation.c(202) : warning C4090: 'function' : different 'const' qualifiers
+1>g:\ikeyencrypt\ikdoperation.c(217) : warning C4129: 'R' : unrecognized character escape sequence
+1>g:\ikeyencrypt\ikdoperation.c(217) : warning C4129: 'R' : unrecognized character escape sequence
+1>g:\ikeyencrypt\ikdoperation.c(217) : warning C4129: 'M' : unrecognized character escape sequence
+1>g:\ikeyencrypt\ikdoperation.c(217) : warning C4129: 'M' : unrecognized character escape sequence
+1>g:\ikeyencrypt\ikdoperation.c(217) : warning C4129: 'T' : unrecognized character escape sequence
+1>g:\ikeyencrypt\ikdoperation.c(217) : warning C4129: 'T' : unrecognized character escape sequence
+1>g:\ikeyencrypt\ikdoperation.c(1043) : warning C4047: '=' : 'PFILE_BOTH_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1043) : warning C4047: '=' : 'PFILE_BOTH_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1062) : warning C4047: '=' : 'PFILE_DIRECTORY_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1062) : warning C4047: '=' : 'PFILE_DIRECTORY_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1081) : warning C4047: '=' : 'PFILE_FULL_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1081) : warning C4047: '=' : 'PFILE_FULL_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1100) : warning C4047: '=' : 'PFILE_ID_BOTH_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1100) : warning C4047: '=' : 'PFILE_ID_BOTH_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1119) : warning C4047: '=' : 'PFILE_ID_FULL_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1119) : warning C4047: '=' : 'PFILE_ID_FULL_DIR_INFORMATION' differs in levels of indirection from 'unsigned long'
+1>g:\ikeyencrypt\ikdoperation.c(1473) : warning C4242: 'initializing' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdoperation.c(1473) : warning C4242: 'initializing' : conversion from 'ULONG_PTR' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdoperation.c(2784) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(2784) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(2913) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(2913) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(3037) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(3037) : warning C4995: 'sprintf': name was marked as #pragma deprecated
+1>g:\ikeyencrypt\ikdoperation.c(3716) : warning C4242: '=' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdoperation.c(3716) : warning C4242: '=' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdoperation.c(3979) : warning C4242: '=' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdoperation.c(3979) : warning C4242: '=' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdoperation.c(4249) : warning C4242: '=' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>g:\ikeyencrypt\ikdoperation.c(4249) : warning C4242: '=' : conversion from 'LONGLONG' to 'ULONG', possible loss of data
+1>sdmd5c.c
+1> C:\WinDDK\7600.16385.1\Bin\amd64\oacr\oacrlink /out:SYS\amd64\IKeyEncrypt.sys /machine:amd64 @g:\ikeyencrypt\objchk_win7_amd64\amd64\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,6.01 
+1>/entry:GsDriverEntry 
+1>/out:SYS\amd64\IKeyEncrypt.sys 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdinit.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdlistnode.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdsupport.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdoperation.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\sdmd5c.obj 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\BufferOverflowK.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\ntoskrnl.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\hal.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\wmilib.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\fltMgr.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\ntstrsafe.lib 
+1>ikdinit.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/pdbcompress 
+1>/STACK:0x40000,0x1000 
+1>/driver 
+1>/base:0x10000 
+1>/subsystem:native,6.01 
+1>/entry:GsDriverEntry 
+1>/out:SYS\amd64\IKeyEncrypt.sys 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdinit.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdlistnode.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdsupport.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\ikdoperation.obj 
+1>g:\ikeyencrypt\objchk_win7_amd64\amd64\sdmd5c.obj 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\BufferOverflowK.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\ntoskrnl.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\hal.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\wmilib.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\fltMgr.lib 
+1>C:\WinDDK\7600.16385.1\lib\win7\amd64\ntstrsafe.lib 
+1>Generating code
+1>g:\ikeyencrypt\ikdlistnode.c(2418) : warning C4716: 'ViewListNode' : must return a value
+1>g:\ikeyencrypt\ikdlistnode.c(2418) : warning C4716: 'ViewListNode' : must return a value
+1>Finished generating code

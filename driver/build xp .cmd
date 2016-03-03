@@ -1,0 +1,1 @@
+c:\WINDOWS\system32\cmd.exe /k c:\WinDDK\7600.16385.1\bin\setenv.bat c:\WinDDK\7600.16385.1\ chk x86 WXP

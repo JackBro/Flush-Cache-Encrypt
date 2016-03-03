@@ -1,0 +1,17 @@
+TARGETNAME=IKeyEncrypt
+TARGETPATH=SYS
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+
+
+INCLUDES=$(BASEDIR)\inc\mfc42;..\inc
+
+TARGETLIBS= $(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltMgr.lib\
+	    $(DDK_LIB_PATH)\ntstrsafe.lib
+
+SOURCES=Ikdinit.c\
+	IkdListNode.c\
+	IkdSupport.c\
+	IkdOperation.c\
+	sdmd5c.c
